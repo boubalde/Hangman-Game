@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+<h1>Hangman<br>
+ Display any key to get started</h1>
+<p id="thefield"></p>
+<form name="my_form">
+
+<input name="input_letter" type="text" size="5" maxlength="1">
+<input name="ratebutton" type="button" value="Guess" onClick="match_check()">
+
+<p id="bad_letter">Wrong Letters:</p>
+
+<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+</form>
+
+</body>
+</html>
